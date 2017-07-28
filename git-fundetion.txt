@@ -1,0 +1,18 @@
+git基本的项目上传连接命令：
+
+进入要上传的仓库，右键git bash，添加远程地址
+
+$ git remote add origin git@github.com:yourName/yourRepo.git
+
+
+添加本地git文件
+
+$ git add README
+
+备注
+
+$ git commit -m "first commit"
+
+本地的git文件上传到github 上
+
+$ git push origin master
